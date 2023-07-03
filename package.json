@@ -8,6 +8,7 @@
 	"bugs": "",
 	"repository": "",
 	"author": "",
+	"engines": { "node": "^8 || ^18"  },
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build && cp -r .next/static .next/standalone/.next && cp -r public .next/standalone",
