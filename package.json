@@ -23,6 +23,7 @@
 		"update-snapshots": "vitest run --update --silent",
 		"coverage": "vitest run --coverage"
 	},
+	"engines": { "node": ">16"},
 	"dependencies": {
 		"@pantheon-systems/nextjs-kit": "1.7.3",
 		"@pantheon-systems/wordpress-kit": "3.0.0",
