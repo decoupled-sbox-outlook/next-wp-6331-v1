@@ -6,7 +6,6 @@ import { getFooterMenu } from '../lib/Menus';
 import { getLatestPosts } from '../lib/Posts';
 import { setOutgoingHeaders } from '../lib/setOutgoingHeaders';
 import styles from './index.module.css';
-const sharp = require('sharp');
 
 export default function Home({ menuItems, posts }) {
 	const HomepageHeader = () => (
